@@ -13,6 +13,8 @@ document.addEventListener('DOMContentLoaded', function() {
   document.addEventListener('DOMContentLoaded', function() {
     document.getElementById("refresh").addEventListener("click", refreshPage);
   });
+
+  var myVar = setInterval(refreshPage, 300000);
   var myWindow
   var prevWindow
 
